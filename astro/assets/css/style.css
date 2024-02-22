@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head {
+    width: 1100px;
+    margin: auto;
+}
+.head1 {
+    max-width: 1400px;
+    margin: auto;
+}
+.bg-head {
+    background-image: url(../img/ipotekabg.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+body {
+    font-family: sans-serif;
+}
+.info1 {
+    display: flex;
+    color: white;
+}
+.info1 a{
+    color: white;
+}
+
+.forpad {
+    padding-top: 20px;
+    display: flex;
+    font-size: 18px;
+}
+.info2 {
+    color: white;
+    margin-left: 150px;
+}
+.info2 a {
+    color: white;
+}
+.info2 a:hover {
+    color: green;
+}
+
+.options {
+    margin-left: 100px;
+}
+.options select {
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+    color: green;
+    margin-top: -5px;
+}
+.logo {
+    margin: 0;
+}
+.mix {
+    display: flex;
+}
+.srch {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.srch input{
+    width: 350px;
+    height: 40px;
+    border-radius: 25px 25px 25px 25px;
+    padding-left: 15px;
+    font-size: 16px;
+    border: none;
+}
+.security {
+    margin-top: 30px;
+    margin-left: 238px;
+}
+.security select{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+}
+.navbar {
+    width: 1100px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50px 50px 50px 50px;
+    margin-top: 25px;
+}
+.nav li a:hover {
+    text-decoration: none;
+    color: green;
+}
+.nav li{
+    text-align: center;
+    margin-top: 28px;
+    margin-left: 50px;
+    display: inline-block;
+    font-size: 13px;
+}
+.nav li a{
+    color: black;
+}
+.adverb {
+    font-size: 19px;
+    margin-top: 25px;
+    color: white;
+}
+#btn {
+    margin-top: 40px;
+    width: 120px;
+    height: 60px;
+    border-radius: 30px 30px 30px 30px;
+    border: none;
+    font-size: 16px;
+    background-color: rgb(202, 136, 12);
+}
+#btn a {
+    color: white;
+}
+#btn a:hover {
+    text-decoration: none;
+    color: green;
+}
+.first {
+    background-color: transparent;
+    width: 680px;
+    height: 300px;
+    text-align: left;
+    font-size: 18px;
+    margin-top: 70px;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 3px -1px 33px 0px rgba(34, 60, 80, 0.2);
+    float: left;
+}
+.first li {
+    list-style: none;
+    margin-top: 10px;
+}
+.icons {
+    float: left;
+    width: 25%;
+    text-align: right;
+    font-size: 45px;
+    color: green;
+    padding-top: 35px;
+    padding-right: 50px;
+}
+.info-3 {
+    float: right;
+    width: 75%;
+    text-align: left;
+    padding-top: 25px;
+}
+.info-3in {
+    width: 150px;
+}
+.info-3 a {
+    color: green;
+}
+.info-3 a:hover {
+    text-decoration: none;
+}
+.second {
+    background-color: transparent;
+    width: 680px;
+    height: 300px;
+    text-align: left;
+    font-size: 18px;
+    margin-top: 70px;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 3px -1px 33px 0px rgba(34, 60, 80, 0.2);
+    float: right;
+}
+.second li {
+    list-style: none;
+    margin-top: 10px;
+}
+.icons {
+    float: left;
+    width: 25%;
+    text-align: right;
+    font-size: 45px;
+    color: green;
+    padding-top: 35px;
+    padding-right: 50px;
+}
+.info-3 {
+    float: right;
+    width: 75%;
+    text-align: left;
+    padding-top: 25px;
+}
+.info-3in {
+    width: 150px;
+}
+.info-3 a {
+    color: green;
+}
+.info-3 a:hover {
+    text-decoration: none;
+}
+.thirddiv {
+    width: 100%;
+    height: 530px;
+    background-color: #efefff;
+    margin-top: 850px;
+}
+.head2 {
+    width: 1300px;
+    margin: auto;
+}
+.news {
+    text-align: left;
+    padding-top: 70px;
+    margin-left: -15px;
+    font-size: 20px;
+}
+.news2 {
+    text-align: right;
+    margin-top: -21px;
+    font-size: 17px;
+}
+.news2 a {
+    color: black;
+}
+.news2 a:hover {
+    text-decoration: none;
+    color: green;
+    margin-right: 20px;
+    transition: 0.5s;
+}
+.news1 {
+    width: 400px;
+    height: 200px;
+}
+.firstnew {
+    float: left;
+    width: 400px;
+    background-color: rgb(255, 253, 253);
+    border-radius: 40px 40px 40px 40px;
+}
+.firstnew a:hover {
+    margin: 0;
+}
+.newsin {
+    font-size: 11px;
+    text-align: left;
+    padding: 20px;
+}
+.newsin a{
+    text-decoration: none;
+    color: black;
+}
+.newsin p{
+    margin-top: 15px;
+    font-size: 15px;
+}
+.uchtanew {
+    margin-top: 40px;
+}
+.fourthsection {
+    width: 100%;
+    height: 800px;
+}
+.icidegi {
+    width: 1400px;
+    margin: auto;
+}
+.valyuta {
+    width: 1400px;
+    height: 400px;
+    background-color: rgb(206, 255, 255);
+    border-radius: 40px 40px 40px 40px;
+    box-shadow: 4px 4px 18px 0px rgba(34, 60, 80, 0.2);
+    margin-top: 150px;
+}
+.left {
+    float: left;
+    text-align: left;
+    padding: 50px;
+    width: 700px;
+}
+.right {
+    float: left;
+    text-align: left;
+    padding: 50px;
+    width: 700px;
+}
+.kurs {
+    margin-top: 120px;
+    color: grey;
+}
